@@ -7,6 +7,7 @@ const imgElement = document.createElement("img");
 
 imgElement.src = imageSrc;
 
+
 divElement.appendChild(imgElement);
 window.addEventListener('load', ()=>{
     const form= document.querySelector("#task-form");
@@ -49,8 +50,6 @@ window.addEventListener('load', ()=>{
         const task_edit_botton= document.createElement("button");
         task_edit_botton.classList.add("Edit");
         task_edit_botton.innerHTML = "Edit";
-
-      
 
 
         task_actions_div.appendChild(task_edit_botton);
